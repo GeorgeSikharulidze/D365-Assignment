@@ -1,0 +1,39 @@
+# In Command Prompt/PowerShell, navigate to main folder
+cd C:\Users\YourName\Documents\D365-PowerPlatform-Assignment
+
+# Create .gitignore file
+notepad .gitignore
+```
+
+### Paste this content and save:
+```
+# Build outputs
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.cache
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Key files (security)
+*.snk
+*.pfx
+
+# Logs
+*.log
