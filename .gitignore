@@ -1,12 +1,3 @@
-# In Command Prompt/PowerShell, navigate to main folder
-cd C:\Users\YourName\Documents\D365-PowerPlatform-Assignment
-
-# Create .gitignore file
-notepad .gitignore
-```
-
-### Paste this content and save:
-```
 # Build outputs
 bin/
 obj/
